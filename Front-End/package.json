@@ -1,0 +1,72 @@
+{
+  "name": "ripley-pay",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "^7.4.2",
+    "@date-io/date-fns": "^1.3.8",
+    "@material-ui/core": "^4.2.1",
+    "@material-ui/icons": "^1.1.0",
+    "@material-ui/pickers": "^3.1.2",
+    "@material-ui/styles": "^4.0.0",
+    "@microsoft/applicationinsights-web": "^2.1.1",
+    "@sendgrid/mail": "^6.4.0",
+    "@types/node": "^10.11.7",
+    "azure-keyvault": "^3.0.4",
+    "azure-storage": "^2.10.3",
+    "cls-hooked": "^4.2.2",
+    "date-fns": "^2.0.0-beta.2",
+    "docker-compose": "^0.9.1",
+    "dotenv": "^8.0.0",
+    "file-saver": "^2.0.2",
+    "html-to-image": "^0.1.1",
+    "lodash": "^4.17.10",
+    "material-table": "^1.40.1",
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.21",
+    "ms-rest-azure": "^3.0.0",
+    "qrcode.react": "^0.9.3",
+    "query-string": "^6.2.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "3.0.1",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "typeface-roboto": "0.0.54"
+  },
+  "scripts": {
+    "start": " SET PORT=3000 && cross-env REACT_APP_ENV=qa react-scripts start",
+    "build": " cross-env REACT_APP_ENV=qa react-scripts build",
+    "prod": "cross-env REACT_APP_ENV=prod REACT_APP_APP_VERSION=1.5.0 react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "cross-env": "^5.2.0",
+    "eslint": "5.16.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

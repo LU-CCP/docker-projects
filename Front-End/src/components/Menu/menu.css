@@ -1,0 +1,6 @@
+div#menu-view ul a:hover{
+  text-decoration: unset !important;
+}
+#menu-lateral{
+  margin-top: 12px !important;
+}

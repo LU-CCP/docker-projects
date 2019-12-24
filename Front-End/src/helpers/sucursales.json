@@ -1,0 +1,214 @@
+[
+  {
+    "sucursales": [
+      {
+        "id": 0,
+        "name": "Huérfanos"
+      },
+      {
+        "id": 2,
+        "name": "Concepcion Center"
+      },
+      {
+        "id": 3,
+        "name": "Viña Sucre"
+      },
+      {
+        "id": 4,
+        "name": "Temuco Centro"
+      },
+      {
+        "id": 7,
+        "name": "Los Dominicos"
+      },
+      {
+        "id": 9,
+        "name": "Barros Arana"
+      },
+      {
+        "id": 10,
+        "name": "Los Andes"
+      },
+      {
+        "id": 11,
+        "name": "Castellon"
+      },
+      {
+        "id": 12,
+        "name": "Parque Arauco"
+      },
+      {
+        "id": 14,
+        "name": "Puerto Montt Centro"
+      },
+      {
+        "id": 16,
+        "name": "Plaza Vespucio"
+      },
+      {
+        "id": 17,
+        "name": "Astor"
+      },
+      {
+        "id": 18,
+        "name": "Mall del Centro"
+      },
+      {
+        "id": 19,
+        "name": "Crillon"
+      },
+      {
+        "id": 21,
+        "name": "Arica"
+      },
+      {
+        "id": 22,
+        "name": "Chillan"
+      },
+      {
+        "id": 23,
+        "name": "San Fernando"
+      },
+      {
+        "id": 25,
+        "name": "Valparaíso"
+      },
+      {
+        "id": 26,
+        "name": "Antofagasta"
+      },
+      {
+        "id": 28,
+        "name": "El Trébol"
+      },
+      {
+        "id": 29,
+        "name": "Alto las Condes"
+      },
+      {
+        "id": 32,
+        "name": "Rancagua"
+      },
+      {
+        "id": 34,
+        "name": "Costanera Center"
+      },
+      {
+        "id": 37,
+        "name": "Marina"
+      },
+      {
+        "id": 39,
+        "name": "POS INTERNET"
+      },
+      {
+        "id": 41,
+        "name": "La Serena"
+      },
+      {
+        "id": 45,
+        "name": "Mall Plaza Oeste"
+      },
+      {
+        "id": 46,
+        "name": "Tobalaba"
+      },
+      {
+        "id": 48,
+        "name": "Mall Plaza Norte"
+      },
+      {
+        "id": 49,
+        "name": "Iquique"
+      },
+      {
+        "id": 51,
+        "name": "Calama"
+      },
+      {
+        "id": 57,
+        "name": "FloridaCente"
+      },
+      {
+        "id": 67,
+        "name": "Outlet BuenaVentura"
+      },
+      {
+        "id": 68,
+        "name": "Portal Temuco"
+      },
+      {
+        "id": 69,
+        "name": "Coquimbo"
+      },
+      {
+        "id": 71,
+        "name": "Plaza Egaña"
+      },
+      {
+        "id": 72,
+        "name": "Plaza Los Angeles"
+      },
+      {
+        "id": 74,
+        "name": "Talca"
+      },
+      {
+        "id": 76,
+        "name": "Curico"
+      },
+      {
+        "id": 77,
+        "name": "La Dehesa"
+      },
+      {
+        "id": 78,
+        "name": "Costanera Pto. Montt"
+      },
+      {
+        "id": 79,
+        "name": "La Calera"
+      },
+      {
+        "id": 84,
+        "name": "Copiapó"
+      },
+      {
+        "id": 85,
+        "name": "Ripley Quilpue"
+      },
+      {
+        "id": 88,
+        "name": "Mall Maipu"
+      },
+      {
+        "id": 96,
+        "name": "Ripley Punta Arenas"
+      },
+      {
+        "id": 97,
+        "name": "Mall Plaza Alameda"
+      },
+      {
+        "id": 98,
+        "name": "Mall Valdivia"
+      },
+      {
+        "id": 99,
+        "name": "Mall Plaza Sur(San Bernardo)"
+      }
+    ]
+  },
+  {
+    "comercios": [
+      {
+        "id":770322367,
+        "name": "COMERCIAL ECCSA CHILE S.A."
+      },
+      {
+        "id":833827006,
+        "name": "COMERCIAL ECCSA S.A."
+      }
+    ]
+  }
+]
