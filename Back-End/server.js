@@ -1,8 +1,10 @@
 
-require('dotenv').config()
+const environment = process.env.ENVIROMENT === 'local' ? 'local.env' : 'env.env';
+require('dotenv').config({ path: environment });
+
 const express = require('express');
 const cors = require('cors');
-const { HOST, PORT } = process.env;
+let { HOST, PORT, ENVIROMENT } = process.env;
 
 const app = express();
 
@@ -30,10 +32,10 @@ app.use ((req, res, next) => {
 
 
 app.get('/', (req, res) => {
-  res.send('API construida para Lagash University se encuentra arriba!');
+  res.send(`API construida para Lagash University se encuentra arriba en ambiente ${ENVIROMENT || 'No definido'}`);
 });
 
 
 
-app.listen(PORT, HOST);
-console.log(`Corriendo  API en http://${HOST}:${PORT}`);
+app.listen(PORT =5200, HOST='0.0.0.0');
+console.log(`Corriendo  API en http://${HOST || '0.0.0.0'}:${PORT || 5200}`);
