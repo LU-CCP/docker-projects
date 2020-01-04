@@ -1,0 +1,11 @@
+{
+  "name": "dockerenv",
+  "version": "1.0.0",
+  "description": "Repositorio de prueba para docker enviroment variables",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

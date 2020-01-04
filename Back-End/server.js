@@ -1,6 +1,4 @@
 
-const environment = process.env.ENVIROMENT === 'local' ? 'local.env' : 'env.env';
-require('dotenv').config({ path: environment });
 
 const express = require('express');
 const cors = require('cors');
