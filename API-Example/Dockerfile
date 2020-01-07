@@ -17,6 +17,6 @@ COPY . .
 EXPOSE 5200
 CMD [ "npm", "run", "start" ]
 
-# docker build -t ignaciods/api-example:20190824-QA .
-# docker run -it ignaciods/api-example:20190824-QA
-# docker push ignaciods/api-example:20190824-QA
+# docker build -t clripley.azurecr.io/api-example:20190824-QA .
+# docker run -it clripley.azurecr.io/api-example:20190824-QA
+# docker push clripley.azurecr.io/api-example:20190824-QA

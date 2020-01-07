@@ -1,13 +1,13 @@
 
 var config = require('./../settings/appsettings.secrets.json');
-const { apiQRUri } = config
+const { apiUri } = config
 
 const api = {
-  pointOfSales: `${apiQRUri}/pointsOfSales`,
+  getUF: (date)=>`${apiUri}/uf/${date}`,
 };
 
 const uriConfig = {
-  apiQR,
+  api,
 };
 
 exports.uriConfig = uriConfig;
